@@ -1,3 +1,5 @@
-$(document).ready(function () {
+/* global $ */ 
+
+$(document).on('turbolinks:load', function () {
   alert('Hello World')
 });
